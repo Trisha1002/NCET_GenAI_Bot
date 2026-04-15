@@ -3,7 +3,7 @@ from groq import Groq
 
 st.set_page_config("Manx_AI content Generator",layout="wide")
 st.title("Manx_AI - Content Generator")
-st.image("file:///C:/Users/Trisha/Downloads/NGE-Logo.webp")
+st.image("https://phandroid.s3.amazonaws.com/wp-content/uploads/2017/03/backdrops.png")
 # Get GROQ API Key
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 # Get Product Name and Audience for That Product
